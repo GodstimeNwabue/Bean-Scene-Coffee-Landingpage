@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cta-bg {
+    /* background-image: url(./assests/coffee_image.png); */
+    background: linear-gradient(90deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.00) 87.45%), url(./assests/coffee_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.7rem 2.5rem;
+    font-size: 14px;
+}
+
+header h1 {
+    font-size: 35px;
+    font-family: 'Clicker script', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.cta-bg ul {
+    display: flex;
+    gap: 1.8rem;
+    list-style: none;
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
+
+/**/
+.hero-main {
+    padding: 1.7rem 2.5rem;
+    /* line-height: 1.5rem; */
+    margin-top: 3.5rem;
+}
+
+.hero-main article p {
+    font-size: 22px;
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.hero-main article h2 {
+    font-size: 220px;
+    font-family: 'Clicker script', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.hero-main article .hero-main_yourDay {
+    font-size: 20px;
+}
