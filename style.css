@@ -123,3 +123,15 @@ header h1 {
     font-weight: 400;
     line-height: 34px;
 }
+
+.discover_best_flow {
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.discover_best_flow_blast {
+    position: absolute;
+    top: -120px;
+    bottom: 0px;
+}
