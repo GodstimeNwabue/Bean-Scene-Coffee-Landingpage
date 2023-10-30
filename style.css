@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-style: normal;
+    line-height: normal;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Playfair Display', Arial, Helvetica, ;
+}
+
 .cta-bg {
     /* background-image: url(./assests/coffee_image.png); */
     background: linear-gradient(90deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.00) 87.45%), url(./assests/coffee_image.png);
@@ -16,7 +27,8 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 1.7rem 2.5rem;
+    align-items: center;
+    padding: 1.7rem 1.7rem;
     font-size: 14px;
 }
 
@@ -28,14 +40,37 @@ header h1 {
 
 .cta-bg ul {
     display: flex;
+    align-items: center;
     gap: 1.8rem;
     list-style: none;
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
 }
 
+.cta-btn,
+.cta-sign_up {
+    color: #1E1E1E;
+    border: 0;
+    cursor: pointer;
+    border-radius: 24px;
+    padding: 12px 24px;
+    font-family: Playfair Display;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+}
+
+.cta-btn {
+    margin-top: 15px;
+}
+
+.cta-sign_up {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
 /**/
 .hero-main {
-    padding: 1.7rem 2.5rem;
+    padding: 3.5rem 2.5rem;
     /* line-height: 1.5rem; */
     margin-top: 3.5rem;
 }
@@ -54,4 +89,37 @@ header h1 {
 
 .hero-main article .hero-main_yourDay {
     font-size: 20px;
+}
+
+.hero-main_yourDay {
+    line-height: 34px;
+    font-family: Playfair Display;
+}
+
+.cta-btn-bold {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/*Discover the best section*/
+.discover_best {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.7rem 1.7rem;
+}
+
+.discover_best article h2 {
+    margin-bottom: 13px;
+    font-size: 54px;
+    color: #603809;
+}
+
+.discover_best article p {
+    color: #707070;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
 }
