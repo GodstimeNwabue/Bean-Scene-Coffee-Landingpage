@@ -132,6 +132,61 @@ header h1 {
 
 .discover_best_flow_blast {
     position: absolute;
-    top: -120px;
+    top: -150px;
     bottom: 0px;
+}
+
+.enjoy_blend {
+    padding-top: 5.3rem;
+    font-family: Playfair Display;
+    text-align: center;
+}
+
+.enjoy_blend h2 {
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.enjoy_blend p {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.enjoy_blend-slide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+.enjoy_blend-slide h2 {
+    padding-top: 15px;
+}
+
+.enjoy_blend-slide figure img {
+    width: 315px;
+    /* height: 222px; */
+}
+
+.enjoy_blend-slide figure figcaption {
+    color: #603809;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.enjoy_blend-slide figure p {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.enjoy_blend-slide figure h2 {
+    color: #603809;
+    font-size: 22px;
+    font-weight: 700;
 }
