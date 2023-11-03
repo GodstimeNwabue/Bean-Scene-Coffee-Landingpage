@@ -52,7 +52,7 @@ header h1 {
     border: 0;
     cursor: pointer;
     border-radius: 24px;
-    padding: 12px 24px;
+    padding: 12px 31.5px;
     font-family: Playfair Display;
     background: #F9C06A;
     box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
@@ -189,4 +189,70 @@ header h1 {
     color: #603809;
     font-size: 22px;
     font-weight: 700;
+}
+
+/*Section on why we are different*/
+.why_we_are {
+    text-align: center;
+    font-family: Playfair Display;
+}
+
+.why_we_are-flow {
+    /* position: relative;
+    top: 0;
+    bottom: 0; */
+    text-align: end;
+}
+
+.why_we_are-text {
+    margin-top: -10.3rem;
+}
+
+.why_we_are-text h2 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #603809;
+}
+
+.why_we_are-text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #707070;
+    padding-top: 20px;
+}
+
+.why_we_are-slide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.why_we_are-slide h2 {
+    padding: 15px 0px;
+    color: #603809;
+    font-size: 28px;
+    font-weight: 700;   
+}
+
+.why_we_are-slide p {
+    padding-bottom: 40px;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.why_we_are article {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 40px;
+    /* color: #603809; */
+}
+
+.why_we_are article p {
+    color: #707070;
+}
+
+.why_we_are article h2 {
+    color: #603809;
 }
