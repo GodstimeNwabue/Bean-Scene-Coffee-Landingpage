@@ -85,6 +85,7 @@ header h1 {
     font-size: 220px;
     font-family: 'Clicker script', Arial, Helvetica, sans-serif;
     font-weight: 400;
+    /* height: 800c; */
 }
 
 .hero-main article .hero-main_yourDay {
@@ -255,4 +256,15 @@ header h1 {
 
 .why_we_are article h2 {
     color: #603809;
+}
+
+.get_a_chance {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 2.8rem 0rem;
+    margin-top: 4.5rem;
+    /* background: url(./assests/Rectangle\ 14.png), lightgray 50% / cover no-repeat 0.8; */
+    background: linear-gradient(rgba(96, 56, 9, .8), rgba(96, 56, 9, .8)), url(./assests/Rectangle\ 14.png);
 }
